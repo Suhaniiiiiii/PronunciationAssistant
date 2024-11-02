@@ -1,16 +1,15 @@
 # PronunciationAssistant
 
-#Overview
+**Overview:**
 This project is a comprehensive Pronunciation Assistant with an integrated Object Detection feature. The tool is designed to help users improve their pronunciation while also identifying objects in real-time using a webcam. The application provides feedback on spoken sentences, highlighting pronunciation mistakes and offering corrections. It also detects objects in the user's environment and displays them with labels.
 
-
-#Some technologies:
+**Some technologies:**
 - Tkinter for the Graphical User Interface (GUI)
 - Wav2Vec2 for speech-to-text processing and pronunciation analysis
 - Yolov5 for object detection via webcam feed
 - Google Translate API for pronunciation feedback and real-time translation
 
-#Features
+**Features**
 1. Pronunciation Assistant
 Speech-to-Text Conversion: Converts your spoken sentences into text using the Wav2Vec2 model.
 Pronunciation Feedback: Identifies pronunciation mistakes and provides suggestions for improvement.
@@ -20,7 +19,7 @@ Translation: Offers real-time translation of input sentences to a desired langua
 Real-time Object Detection: Uses Yolov5 to detect objects in the user's environment through a webcam feed.
 Labeling: Detected objects are labeled and displayed on the GUI.
 
-#Usage
+**Usage**
 1. Pronunciation Assistant:
 Input a sentence: Enter the sentence you'd like to speak or receive feedback on.
 Speak: The program will convert your speech to text and compare it to the input sentence.
